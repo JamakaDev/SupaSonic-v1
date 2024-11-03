@@ -28,11 +28,11 @@
     <script type="module">
             const hideFullScreenButton = "";
             const buildUrl = "Build";
-            const loaderUrl = buildUrl + "/Build-v8.loader.js";
+            const loaderUrl = buildUrl + "/Build-v9.loader.js";
             const config = {
-              dataUrl: buildUrl + "/Build-v8.data.unityweb",
-              frameworkUrl: buildUrl + "/Build-v8.framework.js.unityweb",
-              codeUrl: buildUrl + "/Build-v8.wasm.unityweb",
+              dataUrl: buildUrl + "/Build-v9.data",
+              frameworkUrl: buildUrl + "/Build-v9.framework.js",
+              codeUrl: buildUrl + "/Build-v9.wasm",
               streamingAssetsUrl: "StreamingAssets",
               companyName: "DefaultCompany",
               productName: "SonicX-v1",
@@ -66,7 +66,7 @@
               container.className = "unity-mobile";
               config.devicePixelRatio = 1;
             }
-            canvas.style.background = "url('" + buildUrl + "/Build-v8.jpg') center / cover";
+            canvas.style.background = "url('" + buildUrl + "/Build-v9.jpg') center / cover";
             loadingCover.style.display = "";
             const script = document.createElement("script");
             script.src = loaderUrl;
